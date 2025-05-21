@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Avengers Page</title>
+  <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+  <!-- Marvel Logo -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg" alt="Marvel Logo" class="logo">
+
+  <h1></h1>
+
+  <!-- The Avengers Logo -->
+  <img src="D:\Programs\ApexPlanet\Task1Av\A1.jpg" alt="The Avengers Logo" class="avengers-logo">
+
+  <div class="container">
+    <!-- Cards for each character -->
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\Ironman1.jpg" alt="Iron Man">
+      <button onclick="openModal('ironman')">Iron Man</button>
+    </div>
+
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\captainamerica1.webp" alt="Captain America">
+      <button onclick="openModal('captain')">Captain America</button>
+    </div>
+
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\blackwidow1.jpg" alt="Black Widow">
+      <button onclick="openModal('widow')">Black Widow</button>
+    </div>
+
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\thor2.jpg" alt="Thor">
+      <button onclick="openModal('thor')">Thor</button>
+    </div>
+
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\hulk.jpg" alt="Hulk">
+      <button onclick="openModal('hulk')">Hulk</button>
+    </div>
+
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\hawkeye1.avif" alt="Hawkeye">
+      <button onclick="openModal('hawkeye')">Hawkeye</button>
+    </div>
+
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\scarlett witch1.jpg" alt="Scarlet Witch">
+      <button onclick="openModal('scarlet')">Scarlet Witch</button>
+    </div>
+
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\vision1.jpg" alt="Vision">
+      <button onclick="openModal('vision')">Vision</button>
+    </div>
+
+    <!-- Ultimate Spider-Man Team -->
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\us2.jpg" alt="Ultimate Spider-Man">
+      <button onclick="openModal('spiderman')">Ultimate Spider-Man</button>
+    </div>
+
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\if1.webp" alt="Iron Fist">
+      <button onclick="openModal('ironfist')">Iron Fist</button>
+    </div>
+
+    <div class="card">
+      <img src="D:\Programs\ApexPlanet\Task1Av\lk1.jpg" alt="Luke Cage">
+      <button onclick="openModal('lukecage')">Luke Cage</button>
+    </div>
+  </div>
+
+  <!-- Character Modals -->
+  <div id="ironman" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('ironman')">&times;</span>
+      <h2>Iron Man</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\Ironman2.jpg" alt="Iron Man" class="modal-img">
+      <p>Tony Stark is a genius inventor and billionaire who becomes Iron Man with his high-tech suit. Iron Man is the superhero persona of Anthony Edward "Tony" Stark, a businessman and engineer who runs the weapons manufacturing company Stark Industries. When Stark was captured in a war zone and sustained a severe heart wound, he built his Iron Man armor and escaped his captors. Iron Man's suits of armor grant him superhuman strength, flight, energy projection, and other abilities.</p>
+      <a href="https://en.wikipedia.org/wiki/Iron_Man_(Anthony_Stark)" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+
+  <div id="scarlet" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('scarlet')">&times;</span>
+      <h2>Scarlet Witch</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\scarlet witch2.jpg" alt="Scarlet Witch" class="modal-img">
+      <p>Wanda Maximoff manipulates chaos magic and is one of the most powerful Avengers. The Scarlet Witch, an alter ego of Wanda Django Maximoff, was first introduced as a reluctant supervillain alongside her twin brother, Quicksilver, both founding members of the Brotherhood of Evil Mutants. A year later, she joined the Avengers and became a longtime member of various teams like the West Coast Avengers and Force Works. In 1975, she married her android teammate Vision and magically conceived twin sons. </p>
+      <a href="https://en.wikipedia.org/wiki/Scarlet_Witch" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+  <div id="vision" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('vision')">&times;</span>
+      <h2>Vision</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\vision2.avif" alt="Vision" class="modal-img">
+      <p>Vision is a synthetic being with the power of the Mind Stone, known for his intelligence and compassion. The Vision was created from a copy of the original Human Torch, a synthetic man created by Phineas T. Horton. Ultron took this inert android and added more advanced technology to it, as well as new programming of his own design and a copy of human brainwave patterns. The result was the Vision, a synthezoid driven by logic but possessing emotions and able to achieve emotional growth. </p>
+      <a href="https://en.wikipedia.org/wiki/Vision_(Marvel_Comics)" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+  <div id="spiderman" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('spiderman')">&times;</span>
+      <h2>Ultimate Spider-Man</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\us2.jpg" alt="Ultimate Spider-Man" class="modal-img">
+      <p>Peter Parker fights crime as Spider-Man while navigating teen life, part of the Ultimate team. Spider-Man has the secret identity of Peter Benjamin Parker. Initially, Peter was depicted as a teenage high-school student and an orphan raised by his Aunt May and Uncle Ben in New York City after his parents, Richard and Mary Parker, died in a plane crash. Lee, Ditko, and later creators had the character deal with the struggles of adolescence and young adulthood and gave him many supporting characters, such as Flash Thompson, J. Jonah Jameson, and Harry Osborn; romantic interests Gwen Stacy, Mary Jane Watson, and the Black Cat; and enemies such as Doctor Octopus, the Green Goblin, and Venom. In his origin story, Peter gets his superhuman spider powers and abilities after being bitten by a radioactive spider. These powers include superhuman strength, speed, agility, reflexes, stamina, durability, coordination, and balance; clinging to surfaces and ceilings like a spider; and detecting danger with his precognition ability called "spider-sense". He builds wrist-mounted "web-shooter" devices that shoot artificial spider-webs of his own design.</p>
+      <a href="https://en.wikipedia.org/wiki/Ultimate_Spider-Man" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+  <div id="ironfist" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('ironfist')">&times;</span>
+      <h2>Iron Fist</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\if2.png" alt="Iron Fist" class="modal-img">
+      <p>Danny Rand is a martial artist who channels mystical energy into his fists. Iron Fist (Daniel Thomas "Danny" Rand) is a superhero appearing in American comic books published by Marvel Comics. Created by Roy Thomas and Gil Kane, Iron Fist first appeared in Marvel Premiere #15 (May 1974). The character is a practitioner of martial arts and the wielder of a mystical force known as the Iron Fist, which allows him to summon and focus his chi. This ability is obtained from the city of K'un-Lun, which appears on Earth every 10 years.</p>
+      <a href="https://en.wikipedia.org/wiki/Iron_Fist_(comics)" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+  <div id="lukecage" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('lukecage')">&times;</span>
+      <h2>Luke Cage</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\lk2.png" alt="Luke Cage" class="modal-img">
+      <p>Luke Cage has super strength and unbreakable skin, fighting for justice in New York. Lucas "Luke" Cage, born Carl Lucas and also known as Power Man, is a superhero appearing in American comic books published by Marvel Comics. Created by Archie Goodwin, George Tuska, Roy Thomas, and John Romita Sr.</p>
+      <a href="https://en.wikipedia.org/wiki/Luke_Cage" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+ <div id="captain" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('captain')">&times;</span>
+      <h2>Captain America</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\captainamerica2.jpg" alt="Captain America" class="modal-img">
+      <p>Steve Rogers, a super-soldier from World War II, is a symbol of freedom and leadership among the Avengers. Captain America's civilian identity is Steven "Steve" Rogers, a frail man enhanced to the peak of human physical perfection by an experimental "super-soldier serum" after joining the United States Army to aid the country's efforts in World War II. Equipped with an American flag–inspired costume and a virtually indestructible shield, Captain America and his sidekick Bucky Barnes clashed frequently with the villainous Red Skull and other members of the Axis powers.</p>
+      <a href="https://en.wikipedia.org/wiki/Captain_America" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+  <div id="widow" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('widow')">&times;</span>
+      <h2>Black Widow</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\blackwidow2.webp" alt="Black Widow" class="modal-img">
+      <p>Natasha Romanoff is a master spy and expert martial artist who fights alongside the Avengers. Natasha Romanoff[2] is the first character to take on the Black Widow codename in the modern mainstream Marvel Comics. She was created by editor and plotter Stan Lee, scripter Don Rico and artist Don Heck, and first appeared in Tales of Suspense #52 (April 1964). The character has been associated with several superhero teams in the Marvel Universe, including the Avengers, the Defenders, the Champions, S.H.I.E.L.D., and the Thunderbolts.</p>
+      <a href="https://en.wikipedia.org/wiki/Black_Widow_(Marvel_Comics)" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+  <div id="thor" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('thor')">&times;</span>
+      <h2>Thor</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\thor1.jpg" alt="Thor" class="modal-img">
+      <p>The God of Thunder from Asgard, wielding the magical hammer Mjölnir and commanding lightning. Thor is a prominently mentioned god throughout the recorded history of the Germanic peoples, from the Roman occupation of regions of Germania, to the Germanic expansions of the Migration Period, to his high popularity during the Viking Age.</p>
+      <a href="https://en.wikipedia.org/wiki/Thor_(Marvel_Comics)" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+  <div id="hulk" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('hulk')">&times;</span>
+      <h2>Hulk</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\hulk2.jpg" alt="Hulk" class="modal-img">
+      <p>Bruce Banner transforms into the Hulk when angry, a green giant with immense strength.</p>
+      <a href="https://en.wikipedia.org/wiki/Hulk_(comics)" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+  <div id="hawkeye" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('hawkeye')">&times;</span>
+      <h2>Hawkeye</h2>
+      <img src="D:\Programs\ApexPlanet\Task1Av\hawkeye2.jpg" alt="Hawk eye" class="modal-img">
+      <p>Clint Barton is a master archer and marksman, providing precise support to the Avengers.</p>
+      <a href="https://en.wikipedia.org/wiki/Hawkeye_(Clint_Barton)" target="_blank">For further details visit Wikipedia</a>
+    </div>
+  </div>
+
+
+  <!-- JavaScript -->
+  <script src="task1.js"></script>
+</body>
+</html>
