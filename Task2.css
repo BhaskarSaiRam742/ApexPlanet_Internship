@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://wallpapercave.com/wp/wp3153745.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 20px;
+  margin: 0;
+  color: #111; /* Default text color */
+}
+
+.container {
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 8px;
+  border: 2px solid black; /* Black border added */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  color: #222; /* Darker text color for content */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000; /* Title text black */
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333; /* Slightly softer black */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #000; /* Black border on inputs */
+  box-sizing: border-box;
+  color: #111;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-top: 10px;
+  list-style-type: disc;
+  color: #111;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li button {
+  margin-left: 10px;
+  padding: 4px 8px;
+  font-size: 0.9em;
+}
+
+li .complete-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+li .delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+li .complete-btn:hover {
+  background-color: #218838;
+}
+
+li .delete-btn:hover {
+  background-color: #c82333;
+}
+
+#formMessage {
+  color: green;
+  margin-top: 10px;
+}
